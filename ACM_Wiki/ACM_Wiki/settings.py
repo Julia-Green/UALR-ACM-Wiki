@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ACM_Wiki.apps.ACM_WikiAppConfig',
 ]
 
 MIDDLEWARE = [
