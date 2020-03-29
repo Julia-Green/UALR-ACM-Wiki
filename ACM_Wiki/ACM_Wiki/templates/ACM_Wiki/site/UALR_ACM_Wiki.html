@@ -1,0 +1,27 @@
+{% load static %}
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Wiki for members of the UA Little Rock student chapter of the ACM.">
+  <meta name="author" content="Julia Green">
+  
+  <title>{% block title %}UA Little Rock ACM Student Chapter Wiki{% endblock %}</title>
+  <link rel="icon" href="{% static 'ACM_Wiki/images/logo.png' %}" type="image/png">
+  <link rel="stylesheet" href="{% static 'ACM_Wiki/css/style.css' %}">
+  {% block head_block %}{% endblock %}
+</head>
+
+<body class="homepage">
+  <div class="container">
+    <div class="content">
+    {% block content %}
+    <h1>UA Little Rock ACM Student Chapter Wiki</h1>
+    <h2>More to come soon</h2>
+    <img src="{% static 'ACM_Wiki/images/its_working.gif' %}" alt="It's Working!">
+    {% endblock %}
+    </div>
+  </div>
+</body>
+</html>
