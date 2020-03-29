@@ -33,4 +33,4 @@ The prinicpal of least privelage will be implemted to limit access to wiki infor
 
 ### Content Management
 
-- Provide editing access to certian user groups
+- Provide page editing access to certian user groups
