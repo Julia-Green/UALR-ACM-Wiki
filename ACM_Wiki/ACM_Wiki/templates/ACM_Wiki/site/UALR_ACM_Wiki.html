@@ -1,5 +1,5 @@
 {% load static %}
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -8,8 +8,8 @@
   <meta name="author" content="Julia Green">
   
   <title>{% block title %}UA Little Rock ACM Student Chapter Wiki{% endblock %}</title>
-  <link rel="icon" href="{% static 'ACM_Wiki/images/logo.png' %}" type="image/png">
-  <link rel="stylesheet" href="{% static 'ACM_Wiki/css/style.css' %}">
+  <link rel="icon" href="{% static 'images/logo.png' %}" type="image/png">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
   {% block head_block %}{% endblock %}
 </head>
 
@@ -19,7 +19,7 @@
     {% block content %}
     <h1>UA Little Rock ACM Student Chapter Wiki</h1>
     <h2>More to come soon</h2>
-    <img src="{% static 'ACM_Wiki/images/its_working.gif' %}" alt="It's Working!">
+    <img src="{% static 'images/its_working.gif' %}" alt="It's Working!">
     {% endblock %}
     </div>
   </div>
